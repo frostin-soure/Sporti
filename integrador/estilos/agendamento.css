@@ -1,0 +1,79 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #F9FAF8;
+}
+
+.mainDiv {
+    margin: 32px 96px 56px 96px
+}
+
+.cardsPrincipal {
+    display: grid;
+    justify-content: center;
+    margin-top: 28px;
+    
+}
+
+.cardsHorario {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 8px;
+    min-width: 25vw;
+}
+
+.cardsForms {
+    gap: 40px;
+}
+
+.buttonHorario {
+    background-color: #F3F7EF;
+}
+
+.buttonHorarioSelected {
+    background-color: #245640;
+    color: #ffffff;
+}
+
+.buttonHorarioIndisponivel {
+    background-color: #F7F8F5;
+}
+
+.buttonHorarioOcupado {
+    background-color: #F7F8F5;
+}
+
+.quadraSelecionada {
+    background-color: #245640;
+    color: #ffffff;
+}
+
+.selecionarQuadra {
+    background-color: #F3F7EF;
+}
+
+.cardSelectQuadra {
+    display: flex;
+    gap: 40px;
+}
+
+.selectDia {
+    background-color: #F3F7EF;
+    padding: 6px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.selectDiaSelecionado {
+    background-color: #245640;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.confirmarReserva {
+    background-color: #245640;
+    color: #ffffff;
+}

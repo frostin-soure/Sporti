@@ -1,0 +1,28 @@
+*{
+     font-family: "Inter", sans-serif;
+}
+.logo { background-color:#12543D;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 2px;
+}
+.drawer-title{
+    font-weight: bold;
+}
+.nav-link{
+    color: black;
+}
+.navbar{
+    background-color: white;
+}
+.btn-agendar{
+   border-radius: 10px;
+   background-color: #12543D;
+   color: white;
+}
+
+.portal{
+    font-size: 19px;
+    color: #173C2D;
+    font-weight: bold;
+}
